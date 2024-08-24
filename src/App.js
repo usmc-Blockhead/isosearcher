@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.jpg';
 import './App.css';
 
 function App() {
@@ -7,16 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Future home of ISO Searcher.com
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form action="https://formsubmit.co/dcooper53@gmail.com" method="POST">
+          <input type="text" name="name" placeholder='Name' required />
+          <input type="email" name="email" placeholder='Email' required />
+          <input type="hidden" name="_template" value="table" />
+          <button type="submit">Send</button>
+        </form>
+        <p>Sign up for our newsletter and updates!</p>
       </header>
     </div>
   );
