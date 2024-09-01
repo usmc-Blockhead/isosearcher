@@ -1,6 +1,6 @@
 {
   "name": "isosearcher",
-  "homepage": "http://www.isosearcher.com/index.html",
+  "homepage": "http://www.isosearcher.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
